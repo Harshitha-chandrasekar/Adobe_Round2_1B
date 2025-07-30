@@ -1,12 +1,10 @@
-
-```markdown
 # Round 1B: Persona-Driven Document Intelligence
-
+---
 An end‑to‑end system that ingests a collection of PDFs, a persona definition, and a job‑to‑be‑done, then uses semantic embeddings to identify and rank the most relevant sections and refined paragraphs. Designed for CPU‑only execution, model size ≤ 1 GB, and no internet dependency during inference.
 
 ---
 
-##  Features
+## 🚀 Features
 
 - **Two‑stage pipeline**  
   1. **Heading Extraction** via a fine‑tuned TinyBERT (Round 1A).  
@@ -21,9 +19,8 @@ An end‑to‑end system that ingests a collection of PDFs, a persona definition
 - **Lightweight & Fast**  
   - Runs on CPU only  
   - Total model footprint < 1 GB  
-  
 
----
+----
 
 ##  Repository Structure
 
@@ -53,7 +50,7 @@ round1b/
    ```bash
    git clone <repo-url> round1b
    cd round1b
-````
+``
 
 2. **Install dependencies**
 
